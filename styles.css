@@ -1,0 +1,163 @@
+body{
+    background-color: #F3F5FC;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main h1{
+    font-size: 60px;
+}
+.main button{
+    padding: 15px 17px;
+    background-color: rgb(40, 11, 128);
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.main button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.hr1{
+    margin-top: 200px;
+    rotate: 90deg;
+    display:none;
+}
+.hr2{
+    margin-top: 130px;
+}
+.hr3{
+    margin-top: -269px;
+    margin-left: 600px;
+    display:none;
+}
+.hr4{
+    margin-left: 50px;
+    rotate: 90deg;
+    margin-left: 695px;
+    margin-top: 30px;
+    display:none;
+}
+.hr5{
+    margin-left: 690px;
+    margin-top: 35px;
+    rotate: 90deg;
+    display:none;
+}
+.hr6{
+    position: relative;
+    top: -20px;
+    left: 116px;
+    display:none;
+}
+.hr7{
+    position: relative;
+    top: -30px;
+    left: 79px;
+    display:none;
+}
+.hr8{
+    margin-left: 722px;
+    margin-top: 30px;
+    rotate: 50deg;
+    display:none;
+}
+.hr9{
+    margin-left: 699px;
+    margin-top: -8px;
+    rotate: 120deg;
+    display:none;
+}
+#circulo{
+    position: relative;
+    left: 703px;
+    height:50px;
+    width:50px;
+    background:blue;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    display:none;
+ }
+
+ section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+ }
+ section div{
+    margin-bottom: 20px;
+ }
+
+ .main-game{
+    display: none;
+ }
+
+ #word{
+    display: flex;
+  }
+  #word p {
+    border-bottom: 5px black solid;
+    color: #F3F5FC;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  #no-letters{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #palabra{
+    width: 299px;
+    height: 48px;
+    padding: 24px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    background-color: #F3F5FC;
+  }
+
+  .container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 10px
+  }
+ .buttons1{
+    display: flex;
+    gap: 15px;
+    
+ }
+  .buttons button{
+    padding: 24px;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+   background: #0A3871;
+   border-radius: 24px;
+  }
+  
+  .buttons :nth-child(2){
+    background-color: #E5E5E5;
+    color:rgba(10, 56, 113, 1);
+  }
